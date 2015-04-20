@@ -3,7 +3,7 @@ cmsplugin-raw-html
 
 Django CMS plugins to insert raw HTML as top-level or nested plugin.
 
-This package adds a plugin named "Raw HTML" that can be inserted as a top level plugin directly into the page structure,
+This package adds a plugin named "HTML" that can be inserted as a top level plugin directly into the page structure,
 or as a nested plugin into the Text plugin.
 
 Requirements
@@ -16,6 +16,10 @@ Tested with
 
 Installation
 ------------
+
+Install package:
+
+    pip install https://github.com/makukha/cmsplugin-raw-html/archive/master.zip
 
 Add app to `settings.py`:
 
